@@ -84,7 +84,7 @@ nav {
 .nav-list {
     width: 25rem;
     height: 100vh;
-    background-color: #d7d4ed;
+    background-color: #d7d4ede8;
     position: fixed;
     top: 0;
     right: -25rem;
@@ -108,6 +108,7 @@ nav {
 
 .nav-item {
     margin: 1.5rem 0;
+    font-weight: bold;
 }
 
 .nav-link {
@@ -361,6 +362,7 @@ footer {
     .nav-list {
         width: initial;
         height: initial;
+        background: transparent;
         background-color: transparent;
         position: initial;
         top: initial;
